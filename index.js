@@ -35,7 +35,7 @@ function unleashDog(dogName, dogBreed){
 }
 
 function exerciseDog(dogName, dogBreed){
-  let routine =new Array();
+  let routine = new Array();
   let wakeDog = wakeDog(dogName, dogBreed);
   let leashDog = leashDog(dogName, dogBreed);
   let walkToPark = walkToPark(dogName, dogBreed);
