@@ -41,4 +41,6 @@ function exerciseDog(dogName, dogBreed){
   let throwFrisbee = throwFrisbee()
   let walkHome = walkHome()
   let unleashDog = unleashDog()
+  const routine = []
+  routine.push(wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog)
 }
