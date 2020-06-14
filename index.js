@@ -43,4 +43,5 @@ function exerciseDog(dogName, dogBreed){
   let walkHome = walkHome()
   let unleashDog = unleashDog()
   routine.push(wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog)
+  return routine
 }
