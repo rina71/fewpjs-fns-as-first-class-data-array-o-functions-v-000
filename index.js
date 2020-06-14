@@ -36,14 +36,12 @@ function unleashDog(dogName, dogBreed){
 
 const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 function exerciseDog(dogName, dogBreed){
-
   let wakeDog = wakeDog(dogName, dogBreed);
   let leashDog = leashDog(dogName, dogBreed);
   let walkToPark = walkToPark(dogName, dogBreed);
   let throwFrisbee = throwFrisbee(dogName, dogBreed);
   let walkHome = walkHome(dogName, dogBreed);
   let unleashDog = unleashDog(dogName, dogBreed);
-  let routine = new Array();
-  routine.push(wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog);
+
   return routine;
 }
