@@ -33,3 +33,7 @@ function unleashDog(dogName, dogBreed){
   console.log(string);
   return string;
 }
+
+function exerciseDog(dogName, dogBreed){
+  
+}
