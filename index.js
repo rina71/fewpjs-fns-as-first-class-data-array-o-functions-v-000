@@ -35,7 +35,7 @@ function unleashDog(dogName, dogBreed){
 }
 
 function exerciseDog(dogName, dogBreed){
-  const routine = []
+  let routine = []
   let wakeDog = wakeDog()
   let leashDog = leashDog()
   let walkToPark = walkToPark()
