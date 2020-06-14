@@ -35,13 +35,13 @@ function unleashDog(dogName, dogBreed){
 }
 
 function exerciseDog(dogName, dogBreed){
-  let routine = []
-  let wakeDog = wakeDog(dogName, dogBreed)
-  let leashDog = leashDog(dogName, dogBreed)
-  let walkToPark = walkToPark(dogName, dogBreed)
-  let throwFrisbee = throwFrisbee(dogName, dogBreed)
-  let walkHome = walkHome(dogName, dogBreed)
-  let unleashDog = unleashDog(dogName, dogBreed)
-  routine.push(wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog)
-  return routine
+  let routine = [];
+  let wakeDog = wakeDog(dogName, dogBreed);
+  let leashDog = leashDog(dogName, dogBreed);
+  let walkToPark = walkToPark(dogName, dogBreed);
+  let throwFrisbee = throwFrisbee(dogName, dogBreed);
+  let walkHome = walkHome(dogName, dogBreed);
+  let unleashDog = unleashDog(dogName, dogBreed);
+  routine.push(wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog);
+  return routine;
 }
