@@ -34,6 +34,7 @@ function unleashDog(dogName, dogBreed){
   return string;
 }
 
+const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 function exerciseDog(dogName, dogBreed){
 
   let wakeDog = wakeDog(dogName, dogBreed);
